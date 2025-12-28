@@ -28,13 +28,13 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Lo siento mucho, te hice sentir mal y no quiero volver a hacerlo, gracias";
+  titleElement.innerHTML = "Siiiiii!!!! 😍😍😍";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
   window.navigator.vibrate(2000);
   catImg.addEventListener(
     "dblclick",
-    () => (titleElement.innerHTML = "")
+    () => (titleElement.innerHTML = "Hecho con amor por EduardoProfe666🎩")
   );
 }
 
@@ -55,7 +55,17 @@ function resizeNoButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "Lo entiendo, no quiero hacerte daño y no va a volver a pasar, lo siento mucho, me importa mucho como te sientes y esta no es forma de tratarte",
+    "No",
+    "Estás segura?",
+    "Por favorcito",
+    "Perdóname chica anda",
+    "No seas mala",
+    "Yo no lo vuelvo a hacer...",
+    "Discúlpame pls",
+    "Anda mi amor perdóname",
+    "No me hagas esto :(",
+    "Me rompes el corazón",
+    "Quiero llorar...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
