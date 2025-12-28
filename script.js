@@ -28,13 +28,13 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Siiiiii!!!! 😍😍😍";
+  titleElement.innerHTML = "Te amo 💛";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
   window.navigator.vibrate(2000);
   catImg.addEventListener(
     "dblclick",
-    () => (titleElement.innerHTML = "Hecho con amor por EduardoProfe666🎩")
+    () => (titleElement.innerHTML = "Te amo")
   );
 }
 
